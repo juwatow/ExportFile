@@ -13,7 +13,7 @@ namespace ExportFile.Controllers
     {
         readonly List<UserModel> _users = new List<UserModel>
         {
-            new UserModel { FirstName = "Jane", LastName = "Doe", DateOfBirth = DateTime.Now.AddYears(-70) },
+            new UserModel { FirstName = "Frédéric", LastName = "François", DateOfBirth = DateTime.Now.AddYears(-70) },
             new UserModel { FirstName = "John", LastName = "Doe", DateOfBirth = DateTime.Now.AddYears(-65) },
             new UserModel { FirstName = "Jane", LastName = "Doe", DateOfBirth = DateTime.Now.AddYears(-60) },
             new UserModel { FirstName = "John", LastName = "Doe", DateOfBirth = DateTime.Now.AddYears(-55) },

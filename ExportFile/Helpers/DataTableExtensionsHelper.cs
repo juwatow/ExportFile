@@ -47,7 +47,7 @@ namespace ExportFile.Helpers
                     result.Append(i == dt.Columns.Count - 1 ? "\n" : ",");
                 }
             }
-            return Encoding.UTF8.GetBytes(result.ToString());
+            return Encoding.Default.GetBytes(result.ToString());
         }
 
         // Uses Softartisans library
